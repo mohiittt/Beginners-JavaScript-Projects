@@ -3,6 +3,10 @@
 ## Overview
 The Random Quote Generator is a simple, interactive web application designed to inspire and motivate users by displaying random quotes. Built with JavaScript, HTML, and CSS, this project showcases the ability to integrate dynamic content into web pages. Whether you need a burst of inspiration, a quick mood lift, or just a moment of reflection, our Random Quote Generator is here to provide thought-provoking and uplifting words at the click of a button.
 
+# Check out the  Deployed project
+
+https://randomquotesgenerators.netlify.app/
+
 ## Features
 
 - **Random Quote Display**: With each visit or upon clicking the "Generate" button, users are presented with a new, randomly selected quote.
