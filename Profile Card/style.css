@@ -1,0 +1,46 @@
+body{
+  background-color: #ddc8ad;
+}
+
+.card {
+  box-shadow: 0 1px 67px 0 rgb(0 0 0 );
+  max-width: 327px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  background-color: beige;
+}
+
+img{
+  width: 100%;
+}
+
+.title {
+  color: black;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  padding: 6px;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
