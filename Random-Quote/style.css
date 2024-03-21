@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  height: 87vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: #fff;
+}
+.container {
+  height: auto; /* Adjusted for better responsiveness */
+  width: 650px;
+  max-width: 90%; /* Allows the container to adapt to screen size */
+  border: 2px solid white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px white, -5px -5px 10px white;
+  display: flex;
+  flex-direction: column; /* Adjusted for mobile responsiveness */
+}
+.upper {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px;
+  margin-left: 30px;
+}
+.output {
+  height: auto; /* Adjusted for better responsiveness */
+  min-height: 300px; /* Ensures there's a minimum height */
+  border-top: 2px solid white;
+  padding: 10px;
+  padding-top: 50px;
+  font-size: 30px; /* Adjustable based on screen size (see below) */
+  text-align: center;
+}
+#btn {
+  font-size: 20px; /* Adjustable based on screen size (see below) */
+  color: #fff;
+  background: transparent;
+  padding: 20px;
+  margin: 15px 20px 15px 20px;
+  box-shadow: 2px 2px 10px rgb(56, 56, 56);
+  cursor: pointer;
+  border: none; /* Added to remove default button border in some browsers */
+}
+
+/* Tablet devices */
+@media (max-width: 769px) {
+  .container {
+    margin-top: 50px;
+  }
+  .upper h1 {
+    font-size: 28px;
+  }
+  .output {
+    font-size: 24px;
+  }
+  #btn {
+    font-size: 18px;
+    padding: 15px;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 481px) {
+  .upper h1 {
+    font-size: 20px;
+  }
+
+  .upper {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0; /* Adjusting margin for mobile */
+  }
+  .output {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  #btn {
+    font-size: 16px;
+    padding: 12px;
+    margin: 15px; /* Adjust margin to center button on mobile */
+  }
+}
