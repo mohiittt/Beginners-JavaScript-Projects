@@ -11,8 +11,9 @@ Here's a brief overview of the projects included in this repository:
 1. **Random Quote Generator** - Displays a random inspirational quote to the user.
 2. **Simple Calculator** - A basic calculator that performs elementary math operations.
 3. **Random Quote Generator** - A Random Quote Generator is a simple, interactive web application designed to inspire and motivate users by displaying random quotes.
-4. **Guess the Number** - This is a simple web-based "Guess the Number" game where the player attempts to guess a randomly generated number within the range of 1 to 100.
-5. **...and more to come!**
+4. **Guess the Number** - This is a simple web-based "Guess the Number" game where the player attempts to guess a randomly generated number from 1 to 100.
+5. **Weather App** - A simple web application that allows users to check the weather for a specific city.
+6. **...and more to come!**
 
 Each project folder contains all the necessary files (`index.html`, `style.css`, and `script.js`) and its own README with specific details about the project, how to run it, and learning objectives.
 
